@@ -1,3 +1,65 @@
 <resources>
-    <style name="AppTheme" parent="Theme.AppCompat.Light"> </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light"></style>
+
+    <style name="tittleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="teamATittleTextStyle" parent="@style/tittleTextStyle">
+        <item name="android:gravity">left</item>
+        <item name="android:background">@color/colorATeamTextBackground</item>
+    </style>
+
+    <style name="teamBTittleTextStyle" parent="@style/tittleTextStyle">
+        <item name="android:gravity">right</item>
+        <item name="android:background">@color/colorBTeamTextBackground</item>
+    </style>
+
+    <style name="scoreTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <style name="teamAScoreTextStyle" parent="@style/scoreTextStyle">
+        <item name="android:background">@color/colorATeamScoreBackground</item>
+    </style>
+
+    <style name="teamBScoreTextStyle" parent="@style/scoreTextStyle">
+        <item name="android:background">@color/colorBTeamScoreBackground</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="touchDownButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="resetButtonStyle" parent="@style/ButtonStyle">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">23dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
 </resources>
