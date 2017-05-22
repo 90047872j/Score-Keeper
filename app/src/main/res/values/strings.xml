@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Football Score Counter</string>
+    <string name="teamA">Home</string>
+    <string name="teamB">Visitor</string>
+    <string name="StartingScore">0</string>
+    <string name="touchdown">TD</string>
+    <string name="extra1Point">XP1</string>
+    <string name="extra2Point">XP2</string>
+    <string name="fieldGoal">FG</string>
+    <string name="safety">safety</string>
+    <string name="reset">Reset Score</string>
+</resources>

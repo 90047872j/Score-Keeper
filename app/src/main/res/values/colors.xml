@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorButtonNormal">@android:color/white</color>
+    <color name="colorATeamTextBackground">#4286f4</color>
+    <color name="colorATeamScoreBackground">#4D4286f4</color>
+    <color name="colorBTeamTextBackground">#f44253</color>
+    <color name="colorBTeamScoreBackground">#4Df44253</color>
+</resources>
